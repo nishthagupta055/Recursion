@@ -1,7 +1,7 @@
 We can assign each prisoner a placeholder  using a numeric value between [0…9] i.e for total 10 prisoners.
 And made them drink the bottle whose bottle number in binary representation has the bit set according to their placeholder.
+since the total combinations using 10 prisoner in binary can be 2^10 = 1024 which is sufficient enough for 1000 bottles of wine.
 
 For example:
 Bottle 108 has binary representation as 0010110100, hence we can make 3rd ,5th ,6th and 8th prisoner to drink from bottle 10.
 If on the 7th day only prisoner dead were 3 ,5,6 and 8 then we can say that the poisoned bottle was bottle 108.
-And since the total combinations using 10 prisoner in binary can be 2^10 = 1024 which is sufficient enough for 1000 bottles of wine.
